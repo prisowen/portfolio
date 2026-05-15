@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="icon" href="img/icon.png" type="image/png" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+  </head>
+
+  <body>
+    <header class="header container">
+      <a class="header-logo" href="index.html">
+        <img src="img/logo.png" alt="Logo" />
+      </a>
+      <nav class="nav-items">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <main class="container">
+      <h1>Contact Me</h1>
+
+      <section>
+        <p>
+          Feel free to reach out to me via email or phone, or connect with me on
+          social media!
+        </p>
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:hello@example.com">hello@example.com</a>
+          </li>
+          <li>
+            <strong>Phone:</strong>
+            <a href="tel:+5978999999">+597 899-9999</a>
+          </li>
+          <li><strong>GitHub:</strong> <a href="#">github.com/myname</a></li>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a href="#">linkedin.com/in/myname</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Send a Message</h2>
+        <form action="#" method="POST" class="contact-form">
+          <label for="name">Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            required
+            placeholder="Your Name"
+          />
+
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Your Email"
+          />
+
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            required
+            placeholder="Your Message"
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+  </body>
+</html>

@@ -1,0 +1,43 @@
+:root {
+  --color-primary: #01ff88;
+  --color-background: #002255;
+  --color-foreground: #ffffff;
+
+  --radius-md: 0.5rem;
+
+  --screen-xs: 32rem; /* 512px */
+  --screen-lg: 64rem; /* 1024px */
+}
+
+body {
+  font-family: system-ui;
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+}
+
+a {
+  color: inherit;
+  text-decoration-color: var(--color-primary);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+@media (width >=32rem) {
+  .header {
+    flex-direction: row;
+  }
+}
+
+.header-logo img {
+  width: 3rem;
+}
+
+.container {
+  max-width: var(--screen-lg);
+  margin-inline: auto;
+}
