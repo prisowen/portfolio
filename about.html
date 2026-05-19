@@ -1,59 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About</title>
-    <link rel="icon" href="img/icon.png" type="image/png" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/about.css" />
-  </head>
-
-  <body>
-    <header class="header container">
-      <a class="header-logo" href="index.html">
-        <img src="img/logo.png" alt="Logo" />
-      </a>
-      <nav class="nav-items">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">My Portfolio</a>
+      <div class="header-actions">
+        <button class="theme-toggle" aria-label="Toggle light and dark mode">🌓</button>
+        <button class="nav-toggle" aria-label="Open navigation">☰</button>
+      </div>
+      <nav class="site-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="container">
-      <h1>About Me</h1>
+  <main>
+    <section class="hero container about-hero">
+      <div>
+        <p class="eyebrow">About Me</p>
+        <h1>More about Priscilla</h1>
+        <p class="hero-description">My name is Priscilla Owen, and I am a first-year Software Engineering student. Although I am still developing my programming skills, I am committed to continuously learning and improving myself in the field of technology. I am eager to gain more experience and expand my knowledge through both academic and practical projects.</p>
+      </div>
+      <div class="about-card">
+        <h2>Background & Interests</h2>
+        <p>I started learning web development in school and so far it has been quite interesting. I enjoy exploring new tools for design and animation.</p>
+        <p>In my free time, I practice and learn about 3D animation and modeling.</p>
+      </div>
+    </section>
 
-      <section>
-        <h2>Background</h2>
-        <p>
-          Ever since I wrote my first line of code, I've been fascinated by the
-          possibility of building software that solves real-world problems. Over
-          the years, I have honed my skills in web development, focusing on
-          creating fast, accessible, and responsive user interfaces.
-        </p>
-      </section>
-
-      <section>
-        <h2>Interests</h2>
-        <p>
-          Outside of programming, I enjoy reading sci-fi, exploring new music,
-          hiking, and participating in hackathons. I'm always looking to connect
-          with like-minded individuals and communities.
-        </p>
-      </section>
-
-      <section>
+    <section class="container details-section">
+      <div class="info-block">
         <h2>Education</h2>
         <ul>
-          <li>
-            <strong>Bachelor of Science in Computer Science</strong><br />
-            <i>MIT (2050 - 2054)</i>
-          </li>
+          <li>Software Engineering, University of Applied Sciences (2025 - currently)</li>
+          <li>Marketing Management, ABC Hogeschool</li>
         </ul>
-      </section>
-    </main>
+      </div>
+      <div class="info-block">
+        <h2>Interests</h2>
+        <ul>
+          <li>3D Animation and Modeling</li>
+          <li>UI/UX Design</li>
+          <li>Creative coding and animation</li>
+        </ul>
+      </div>
+    </section>
+  </main>
 
-  </body>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Interested in contacting me? Visit my contact page.</p>
+      <p>© 2026 Priscilla Owen</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

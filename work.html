@@ -1,56 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Work</title>
-    <link rel="icon" href="img/icon.png" type="image/png" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/work.css" />
-  </head>
-
-  <body>
-    <header class="header container">
-      <a class="header-logo" href="index.html">
-        <img src="img/logo.png" alt="Logo" />
-      </a>
-      <nav class="nav-items">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">My Portfolio</a>
+      <div class="header-actions">
+        <button class="theme-toggle" aria-label="Toggle light and dark mode">🌓</button>
+        <button class="nav-toggle" aria-label="Open navigation">☰</button>
+      </div>
+      <nav class="site-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="container">
-      <h1>My Work</h1>
+  <main>
+    <section class="container section-heading">
+      <p class="eyebrow">Projects</p>
+      <h1>Work I created</h1>
+      <p>My portfolio website</p>
+    </section>
 
-      <section class="projects-grid">
-        <article class="project-card">
-          <img src="img/projects/project-1.png" alt="Screenshot" />
-          <div class="project-info">
-            <h2>Digio</h2>
-            <p>
-              Listen to your favorite Surinamese radio stations from anywhere. A
-              responsive web app optimized for fast streaming.
-            </p>
-            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-            <a href="https://github.com/nerkarso/digio">View Project</a>
-          </div>
-        </article>
+    <section class="container project-grid">
+      <article class="project-card">
+        <div class="project-label">Portfolio Site</div>
+        <h2>Portfolio Website</h2>
+        <p>A responsive portfolio with accessible navigation.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <a href="index.html" class="project-link">View Project</a>
+      </article>
 
-        <article class="project-card">
-          <div class="project-info">
-            <h2>Portfolio Website</h2>
-            <p>
-              A lean, responsive personal website showcasing my work and skills.
-            </p>
-            <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
-            <a href="https://github.com/nerkarso/portfolio">View Project</a>
-          </div>
-        </article>
-      </section>
-    </main>
+      <article class="project-card">
+        <div class="project-label">Dashboard</div>
+        <h2>Student Project Dashboard</h2>
+        <p>An interactive dashboard displaying course progress and project milestones with cards and charts.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <a href="#" class="project-link">View Project</a>
+      </article>
 
-  </body>
+      <article class="project-card">
+        <div class="project-label">Landing Page</div>
+        <h2>Responsive E-commerce Landing Page</h2>
+        <p>A product-focused landing page featuring promotional sections, testimonials, and call-to-action buttons.</p>
+        <p><strong>Technologies:</strong> HTML, CSS, JavaScript</p>
+        <a href="#" class="project-link">View Project</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2026 Priscilla Owen</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>

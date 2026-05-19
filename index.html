@@ -1,69 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="icon" href="img/icon.png" type="image/png" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-
-  <body>
-    <header class="header container">
-      <a class="header-logo" href="index.html">
-        <img src="img/logo.png" alt="Logo" />
-      </a>
-      <nav class="nav-items">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">My Portfolio</a>
+      <div class="header-actions">
+        <button class="theme-toggle" aria-label="Toggle light and dark mode">🌓</button>
+        <button class="nav-toggle" aria-label="Open navigation">☰</button>
+      </div>
+      <nav class="site-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="container">
-      <h1>Hello there, I'm Priscilla Owen</h1>
-      <p>Computer Science Student / Software Engineer Intern at Unasat</p>
-
-      <section>
-        <h2>About Me</h2>
-        <p>
-          I am a passionate software engineer building elegant web applications.
-          I love solving problems and continuously learning new technologies.
-        </p>
-      </section>
-
-      <section>
-        <h2>Recent Work Experience</h2>
+  <main>
+    <section class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Priscilla Owen</h1>
+        <p class="hero-description">A passionate creator who blends design and development to build modern, friendly online experiences.</p>
+        <div class="hero-meta">
+          <span>Current role: First year student</span>
+          <span>Student of Software Engineering</span>
+        </div>
+      </div>
+      <div class="hero-card">
+        <h2>Latest Highlights</h2>
         <ul>
-          <li>
-            <strong>Software Engineer Intern</strong> at Unasat (2025 - Present)
-          </li>
-          <li><strong>Freelance Web Developer</strong> (2049 - 2050)</li>
+          <li>Designed a portfolio web app</li>
+          <li>Built a responsive landing page using HTML, CSS, and JavaScript</li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section>
-        <h2>Recent Projects</h2>
-        <ul>
-          <li><strong>Digio</strong> - Local online radio app.</li>
-          <li>
-            <strong>Portfolio Website</strong> - A lean, responsive personal
-            site.
-          </li>
-        </ul>
-      </section>
+    <section class="skills container">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>What I do best</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Front-end Development</h3>
+          <p>Building responsive pages with HTML, CSS, and JavaScript.</p>
+        </article>
+      </div>
+    </section>
+  </main>
 
-      <section>
-        <h2>Skills</h2>
-        <ul>
-          <li>HTML & CSS</li>
-          <li>JavaScript</li>
-          <li>Node.js</li>
-          <li>Git & GitHub</li>
-        </ul>
-      </section>
-    </main>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Designed for all devices.</p>
+      <p>© 2026 Priscilla Owen</p>
+    </div>
+  </footer>
 
-  </body>
+  <script src="script.js"></script>
+</body>
 </html>

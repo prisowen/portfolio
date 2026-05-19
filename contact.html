@@ -1,86 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
-    <link rel="icon" href="img/icon.png" type="image/png" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/contact.css" />
-  </head>
-
-  <body>
-    <header class="header container">
-      <a class="header-logo" href="index.html">
-        <img src="img/logo.png" alt="Logo" />
-      </a>
-      <nav class="nav-items">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">My Portfolio</a>
+      <div class="header-actions">
+        <button class="theme-toggle" aria-label="Toggle light and dark mode">🌓</button>
+        <button class="nav-toggle" aria-label="Open navigation">☰</button>
+      </div>
+      <nav class="site-nav">
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="work.html">Work</a>
         <a href="contact.html">Contact</a>
       </nav>
-    </header>
+    </div>
+  </header>
 
-    <main class="container">
-      <h1>Contact Me</h1>
+  <main>
+    <section class="container section-heading">
+      <p class="eyebrow">Contact</p>
+      <h1>Let's connect</h1>
+      <p>If you'd like to chat about a project, collaboration, or anything creative, I’d love to hear from you.</p>
+    </section>
 
-      <section>
-        <p>
-          Feel free to reach out to me via email or phone, or connect with me on
-          social media!
-        </p>
-        <ul>
-          <li>
-            <strong>Email:</strong>
-            <a href="mailto:hello@example.com">hello@example.com</a>
-          </li>
-          <li>
-            <strong>Phone:</strong>
-            <a href="tel:+5978999999">+597 899-9999</a>
-          </li>
-          <li><strong>GitHub:</strong> <a href="#">github.com/myname</a></li>
-          <li>
-            <strong>LinkedIn:</strong>
-            <a href="#">linkedin.com/in/myname</a>
-          </li>
-        </ul>
-      </section>
+    <section class="container contact-grid">
+      <div class="contact-info card-soft">
+        <h2>Contact details</h2>
+        <p><strong>Email:</strong> 255029@unasat.sr</p>
+        <p><strong>Phone:</strong> +597 8594377</p>
+        <p><strong>Location:</strong> Paramaribo, Suriname</p>
+        <div class="social-links">
+          <a href="#">LinkedIn</a>
+          <a href="#">GitHub</a>
+          <a href="#">Twitter</a>
+        </div>
+      </div>
 
-      <section>
-        <h2>Send a Message</h2>
-        <form action="#" method="POST" class="contact-form">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            required
-            placeholder="Your Name"
-          />
+      <form id="contact-form" class="contact-form card-soft">
+        <label for="name">Priscilla Owen</label>
+        <input type="text" id="name" name="name" placeholder="Priscilla Owen" required>
 
-          <label for="email">Email</label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            required
-            placeholder="Your Email"
-          />
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" placeholder="255029@unasat.sr" required>
 
-          <label for="message">Message</label>
-          <textarea
-            id="message"
-            name="message"
-            rows="5"
-            required
-            placeholder="Your Message"
-          ></textarea>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Hi there!" required></textarea>
 
-          <button type="submit">Send</button>
-        </form>
-      </section>
-    </main>
+        <button type="submit" class="button">Send Message</button>
+        <p class="form-response" id="form-response"></p>
+      </form>
+    </section>
+  </main>
 
-  </body>
+  <footer class="site-footer">
+    <div class="container">
+      <p>Thank you for stopping by. I’ll be happy to reply soon.</p>
+      <p>© 2026 Priscilla Owen</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
