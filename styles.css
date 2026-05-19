@@ -93,7 +93,7 @@ img {
 }
 
 :root[data-theme="dark"] .site-header {
-  background: rgba(45, 24, 40, 0.86);
+  background: rgba(94, 65, 87, 0.86);
   border-color: rgba(255, 128, 165, 0.16);
 }
 
@@ -154,7 +154,7 @@ img {
 
 :root[data-theme="dark"] .nav-toggle,
 :root[data-theme="dark"] .theme-toggle {
-  background: rgba(30, 21, 47, 0.9);
+  background: rgba(93, 86, 106, 0.9);
   color: var(--text);
 }
 
